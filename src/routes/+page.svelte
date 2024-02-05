@@ -1,7 +1,3 @@
-<script context="module">
-  hydrate = true;
-</script>
-
 <script>
   import { Card, TextFieldOutlined, Dialog, Button, CardClickable, Checkbox, FAB } from "m3-svelte";
   import { getIcon, loadIcons, loadIcon, iconExists, listIcons } from '@iconify/svelte';
