@@ -1,6 +1,6 @@
 import { PUBLIC_TODO_API_URL } from '$env/static/public';
 
-const URL = PUBLIC_TODO_API_URL;
+const URL = "https://6q61usb552.execute-api.us-east-1.amazonaws.com/dev/api";
 
 async function newTask(content, onerr) {
   const response = await fetch(
