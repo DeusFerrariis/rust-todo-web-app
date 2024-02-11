@@ -1,10 +1,12 @@
 <script>
   import { Card, TextFieldOutlined, Dialog, Button, CardClickable, Checkbox, FAB } from "m3-svelte";
   import { getIcon, loadIcons, loadIcon, iconExists, listIcons } from '@iconify/svelte';
+  import { onMount } from 'svelte';
 
+  let tasks = [];
   export let data;
 
-  $: console.log(data.tasks)
+  console.log(tasks);
 
   const addIconName = "mdi:add-bold"
   let addIcon;
